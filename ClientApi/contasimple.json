@@ -9925,7 +9925,7 @@
     "/api/v{version}/WorkHoursRegister": {
       "get": {
         "consumes": [],
-        "operationId": "WorkHoursRegister_Get",
+        "operationId": "WorkHoursRegisters_Get",
         "parameters": [
           {
             "description": "The index from where we want to start showing the working hours entries, useful for pagination. Default is 0.",
@@ -11907,7 +11907,7 @@
     "/api/v{version}/accounting/deliveryNotes/{deliveryNoteId}/relatedInvoices/{invoiceId}": {
       "delete": {
         "consumes": [],
-        "operationId": "AccountingDeliveryNotesRelatedDocuments_DeleteRelatedInvoices",
+        "operationId": "AccountingDeliveryNotesRelatedDocuments_DeleteRelatedInvoicesId",
         "parameters": [
           {
             "description": "The identifier of the delivery note to delete the related invoice",
@@ -13157,7 +13157,7 @@
     "/api/v{version}/accounting/estimates/{estimateId}/relatedInvoices/{invoiceId}": {
       "delete": {
         "consumes": [],
-        "operationId": "AccountingEstimatesRelatedDocuments_DeleteRelatedInvoices",
+        "operationId": "AccountingEstimatesRelatedDocuments_DeleteRelatedInvoicesId",
         "parameters": [
           {
             "description": "The identifier of the estimate to delete the related invoice",
@@ -19013,7 +19013,7 @@
     "/api/v{version}/administration/externalRegistrations": {
       "get": {
         "consumes": [],
-        "operationId": "AdministrationBrands_Get",
+        "operationId": "AdministrationBrandsExternal_Get",
         "parameters": [
           {
             "format": "int32",
@@ -27834,7 +27834,7 @@
     "/api/v{version}/me/company/avatar/{companyId}": {
       "get": {
         "consumes": [],
-        "operationId": "MyCompanies_Avatar",
+        "operationId": "MyCompanies_AvatarId",
         "parameters": [
           {
             "format": "int64",
@@ -29999,7 +29999,7 @@
     "/api/v{version}/notifications/push/company/{id}": {
       "get": {
         "consumes": [],
-        "operationId": "PushTokens_GetCompany",
+        "operationId": "PushTokens_GetCompanyId",
         "parameters": [
           {
             "format": "int64",
